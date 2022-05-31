@@ -1,28 +1,4 @@
-6225561271751627
-0824
-027
-
-{dede:channelartlist type='top'}
-<a href="{dede:field name='typeurl'/}">{dede:field name='typename'/}</a>
-{dede:channel type='son' noself='yes'}<a href="[field:typelink/]">[field:typename/]</a>{/dede:channel}
-{/dede:channelartlist}
-
-
-
-formatDate(now(), "MMMM D YYYY, HH:mm") == March 30 2010, 12:00
-formatDate(now(), "YYYY/MM/DD, HH:mm") == 2010/03/30, 12:00
-formatDate(now(), "MM/DD/YYYY, HH:mm") == 03/30/2010, 12:00
-formatDate(now(), "HH:mm A") == 12:00 PM
-formatDate(now(), "M/D/YY") == 3/30/10
-if(prop("完成占比") == 0, "😡 怎么还妹开始呢", if(prop("完成占比") == 1, "", slice("■■■■■■■■■■", 0, round(toNumber(prop("完成占比")) * 10)) + slice("□□□□□□□□□□", 0, ceil(10 - round(toNumber(prop("完成占比")) * 10))) + " " + slice(format(toNumber(prop("完成占比")) * 100), 0, 4) + "%"))
-
-
-sed -i '8arewrite \^\(\.\*\) https\:\/\/\$server\_name\$1 permanent;' /usr/local/nginx/conf/vhost/www.baidu.com.conf;	sed -i '57a if \(\$host \!\= '\$server\_name\$1'\)\{ rewrite \^\(\.\*\) https\:\/\/\$server\_name\$1 permanent;\}'  /usr/local/nginx/conf/vhost/www.baidu.com.conf;	lnmp restart;	find /home/wwwroot/www.baidu.com -maxdepth 2 -name 'config.php'|xargs sed -i 's|http\:\/\/|https\:\/\/|g'	
-
-
-sed -i '8arewrite \^\(\.\*\) https\:\/\/\$server\_name\$1 permanent;' /usr/local/nginx/conf/vhost/www.yohhagrm.com.conf;	sed -i '57a if \(\$host \!\= '\$server\_name\$1'\)\{ rewrite \^\(\.\*\) https\:\/\/\$server\_name\$1 permanent;\}'  /usr/local/nginx/conf/vhost/www.yohhagrm.com.conf;	lnmp restart;	find /home/wwwroot/www.yohhagrm.com -maxdepth 2 -name 'config.php'|xargs sed -i 's|http\:\/\/|https\:\/\/|g'
-
-
-
-
-微博图标15292055427密码ahpisz231
+11111111111
+22222222
+333333
+44444444444
